@@ -48,4 +48,34 @@
 
 /* ------ START WRITING YOUR CODE BELOW ------ */
 
+html {
+    font-size:16px;
+}
 
+header {
+    text-align:center
+}
+
+nav    {
+    font-size:16px;
+    padding-top:.5em;
+    padding-bottom:.5em;
+    border-top:.125rem solid #33658A;
+    border-bottom:.125rem solid #33658A;
+}
+.main-section{
+    display:flex;
+}
+
+.subsection {
+    display:grid;
+    grid-template-columns: .5fr .5fr .5fr;
+    grid-template-rows: 50px;
+    grid-gap: 10px;
+}
+.article-image {
+    float: left;
+    width:auto;
+    height:auto;
+    margin-right: 30px;
+}
